@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShareZen — Share Your Toys with the People You Trust</title>
+<meta name="description" content="ShareZen keeps your cabin, boat, plane, or RV used, cared for, and fairly shared — among family and friends, never strangers. Scheduling, shared costs, maintenance, and documents in one place. 30 days free, then $19/month, cancel anytime.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%231C3528'/%3E%3Cpath d='M16 7l8 7v11h-5v-6h-6v6H8V14z' fill='none' stroke='%23DD8A3C' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand" aria-label="ShareZen home">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#1C3528"/><path d="M16 7l8 7v11h-5v-6h-6v6H8V14z" fill="none" stroke="#DD8A3C" stroke-width="2" stroke-linejoin="round"/></svg>
+      ShareZen
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#how">How it works</a>
+      <a href="#why">Why share</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="nav-login" href="https://app.sharezen.com/user_session/new">Log in</a>
+      <a class="btn btn-primary" href="start.html">Start free trial</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="label reveal-load d1">For owners of well-loved toys</span>
+      <h1 class="reveal-load d2">Share your toys with the <span class="accent">people you trust.</span></h1>
+      <p class="lead reveal-load d3">ShareZen keeps your cabin, boat, plane, or RV used, cared for, and fairly shared — among family and friends, <em>never strangers</em>.</p>
+      <div class="hero-cta reveal-load d4">
+        <a class="btn btn-primary btn-lg" href="start.html">Start your 30-day free trial <span class="arrow">→</span></a>
+        <a class="btn btn-ghost btn-lg" href="#how">See how it works</a>
+      </div>
+      <div class="hero-trust reveal-load d5">
+        <span class="dots">
+          <span style="background:#274A38">A</span>
+          <span style="background:#2F5E59">B</span>
+          <span style="background:#C5712A">C</span>
+        </span>
+        <span><b style="color:var(--ink)">$19/month · cancel anytime.</b> One plan covers your whole group.</span>
+      </div>
+    </div>
+    <div class="hero-art reveal-load d3">
+      <!-- cabin-by-the-lake, golden hour, line art -->
+      <svg class="scene" viewBox="0 0 520 460" role="img" aria-label="A cabin beside a lake at golden hour">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#F6E2BE"/><stop offset="1" stop-color="#F0D49E"/>
+          </linearGradient>
+          <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#5C8C86"/><stop offset="1" stop-color="#2F5E59"/>
+          </linearGradient>
+          <clipPath id="round"><rect x="8" y="8" width="504" height="444" rx="26"/></clipPath>
+        </defs>
+        <g clip-path="url(#round)">
+          <rect x="8" y="8" width="504" height="320" fill="url(#sky)"/>
+          <circle cx="380" cy="150" r="58" fill="#E89846" opacity=".85"/>
+          <circle cx="380" cy="150" r="84" fill="#E89846" opacity=".18"/>
+          <!-- hills -->
+          <path d="M8 250 q120 -70 230 -20 q150 60 274 -8 V330 H8Z" fill="#3C6B4F"/>
+          <path d="M8 280 q140 -40 250 -2 q140 50 254 4 V330 H8Z" fill="#274A38"/>
+          <!-- water -->
+          <rect x="8" y="328" width="504" height="124" fill="url(#water)"/>
+          <g stroke="#FBF6EA" stroke-width="3" opacity=".4" stroke-linecap="round">
+            <line x1="60" y1="360" x2="150" y2="360"/><line x1="200" y1="378" x2="320" y2="378"/>
+            <line x1="120" y1="402" x2="240" y2="402"/><line x1="300" y1="420" x2="430" y2="420"/>
+          </g>
+          <!-- sun reflection -->
+          <path d="M360 330 l40 0 -20 110 z" fill="#E89846" opacity=".35"/>
+          <!-- dock -->
+          <g stroke="#7a5a36" stroke-width="7" stroke-linecap="round">
+            <line x1="70" y1="345" x2="70" y2="430"/><line x1="120" y1="345" x2="120" y2="430"/>
+          </g>
+          <rect x="48" y="338" width="96" height="12" rx="4" fill="#8a6a44"/>
+          <!-- cabin -->
+          <g transform="translate(150 168)">
+            <rect x="0" y="60" width="150" height="100" fill="#FBF6EA" stroke="#1C3528" stroke-width="4"/>
+            <path d="M-16 64 L75 -4 L166 64 Z" fill="#C5712A" stroke="#1C3528" stroke-width="4" stroke-linejoin="round"/>
+            <rect x="56" y="104" width="40" height="56" fill="#274A38"/>
+            <rect x="18" y="92" width="28" height="28" fill="#E89846" stroke="#1C3528" stroke-width="3"/>
+            <rect x="106" y="92" width="28" height="28" fill="#E89846" stroke="#1C3528" stroke-width="3"/>
+            <rect x="112" y="6" width="14" height="40" fill="#8a6a44"/>
+          </g>
+          <!-- little boat -->
+          <g transform="translate(330 392)">
+            <path d="M0 0 h70 l-12 22 h-46 z" fill="#FBF6EA" stroke="#1C3528" stroke-width="3"/>
+            <line x1="35" y1="0" x2="35" y2="-34" stroke="#1C3528" stroke-width="3"/>
+            <path d="M35 -32 l24 24 h-24 z" fill="#DD8A3C"/>
+          </g>
+        </g>
+        <rect x="8" y="8" width="504" height="444" rx="26" fill="none" stroke="#1C3528" stroke-width="3" opacity=".5"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEM STRIP ============ -->
+<section class="strip">
+  <div class="container">
+    <div class="reveal">
+      <span class="label">The problem</span>
+      <h2 style="margin-top:18px">Your toys deserve better than a dusty&nbsp;corner.</h2>
+    </div>
+    <div class="reveal s1">
+      <p class="lead">A cabin, boat, or plane is one of the biggest things you'll ever own — and it sits idle most of the year. Share it informally and the scheduling clashes, fuzzy costs, and forgotten maintenance start to wear on the people you love.</p>
+      <p class="muted">ShareZen takes the friction out of sharing something valuable with the people you trust — so the asset gets used, stays cared for, and brings you closer instead of driving you apart.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE MODEL ============ -->
+<section class="sec-pad" id="how">
+  <div class="container">
+    <div class="model-head reveal">
+      <span class="label">How it works</span>
+      <h2 style="margin-top:18px">Three things to keep straight. One&nbsp;place to do it.</h2>
+      <p class="lead" style="margin-top:18px">Sharing isn't renting. ShareZen manages the three layers a rental marketplace never has to — for a group that already shares a stake.</p>
+    </div>
+    <div class="cards-3">
+      <article class="card reveal s1">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-7 9 7"/><path d="M5 9v11h14V9"/><path d="M9 20v-6h6v6"/></svg>
+        <span class="tag">Layer 1</span>
+        <h3>Who owns it</h3>
+        <p>A single primary owner, or fractional and quarter-share co-owners — equity stays clear, however title is held.</p>
+      </article>
+      <article class="card reveal s2">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5a2.5 2 0 0 1 5 0c0 1.5-1.2 2-2.5 2.5s-2.5 1-2.5 2.5a2.5 2 0 0 0 5 0"/></svg>
+        <span class="tag">Layer 2</span>
+        <h3>Who pays to run it</h3>
+        <p>Slip fees, insurance, fuel, maintenance — shared fairly, even when the cost-sharers aren't the equity-holders.</p>
+      </article>
+      <article class="card reveal s3">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/><path d="M8 14h3"/></svg>
+        <span class="tag">Layer 3</span>
+        <h3>Who uses it, and when</h3>
+        <p>Invite, share, or even rent to a friend on one calendar. No double-bookings, no awkward texts.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY SHARE NOT RENT ============ -->
+<section class="sec-pad dark" id="why">
+  <div class="container">
+    <div class="reveal" style="max-width:44rem">
+      <span class="label">Sharing ≠ renting</span>
+      <h2 style="margin-top:18px">A trusted circle, not an anonymous&nbsp;market.</h2>
+      <p class="lead" style="margin-top:18px">The line isn't rent versus share — it's <em>trusted people</em> versus <em>anonymous strangers</em>. Stay on the right side of it and everything changes.</p>
+    </div>
+    <div class="split">
+      <div class="panel good reveal s1">
+        <h3>✦ A trusted circle</h3>
+        <ul>
+          <li><span class="bullet"></span><span>It stays a <b>home, not inventory</b> — leave the skis in the garage and the photo on the wall.</span></li>
+          <li><span class="bullet"></span><span>Cared for by people who actually <b>respect the place</b>.</span></li>
+          <li><span class="bullet"></span><span>Keeps towns and communities <b>genuinely lived-in</b>, season after season.</span></li>
+        </ul>
+      </div>
+      <div class="panel bad reveal s2">
+        <h3>✕ An anonymous market</h3>
+        <ul>
+          <li><span class="bullet"></span><span>Strip the soul out and run it as a <b>sterile commercial unit</b>.</span></li>
+          <li><span class="bullet"></span><span>Wear, churn, and strangers who'll <b>never love it like you do</b>.</span></li>
+          <li><span class="bullet"></span><span>Off-season <b>ghost towns</b> of empty investment units.</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="pullquote reveal">"Leave the skis in the garage and the family photo on the wall."
+      <span class="by">— the difference between sharing and renting</span></p>
+    <p class="foil-note reveal">Uber, Airbnb, and Lime were <em>branded</em> as the "sharing economy." They're anonymous rental platforms — and in many places they displaced real sharing instead of scaling it. ShareZen is built for the other side of that line.</p>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="sec-pad" id="features">
+  <div class="container">
+    <div class="reveal" style="max-width:40rem">
+      <span class="label">What you get</span>
+      <h2 style="margin-top:18px">Everything your group needs, in&nbsp;one place.</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature reveal s1">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>
+        <h3>Shared calendar</h3>
+        <p>Schedule usage and invite, share, or rent to your circle — no clashes, no confusion.</p>
+      </div>
+      <div class="feature reveal s2">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M6 15h4"/></svg>
+        <h3>Money &amp; cost-splitting</h3>
+        <p>Track expenses, assign and split costs, and plan budgets — equity and operating costs kept straight.</p>
+      </div>
+      <div class="feature reveal s3">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 7l3-3 3 3-3 3"/><path d="M17 4l-9 9-4 1 1-4 9-9"/><path d="M5 19h14"/></svg>
+        <h3>Maintenance &amp; vendors</h3>
+        <p>Coordinate directly with marinas, docks, and service providers. Head off costly neglect.</p>
+      </div>
+      <div class="feature reveal s1">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 6l1 1 2-2M4 12l1 1 2-2M4 18l1 1 2-2"/></svg>
+        <h3>Tasks &amp; to-dos</h3>
+        <p>Assign and track what needs doing, with password-protected access for everyone in the group.</p>
+      </div>
+      <div class="feature reveal s2">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5-7-11a7 7 0 0 1 14 0c0 6-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <h3>Event planning</h3>
+        <p>Plan the outing: guest invites, fuel estimates, menus, and beverage plans with costs.</p>
+      </div>
+      <div class="feature reveal s3">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l2 2 4-4"/><rect x="4" y="3" width="16" height="18" rx="2"/></svg>
+        <h3>Notes &amp; checklists</h3>
+        <p>What to bring, what's already there, what stays with the asset — nothing forgotten.</p>
+      </div>
+      <div class="feature reveal s1">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg>
+        <h3>Document storage</h3>
+        <p>Journals, contracts, invoices, work orders, and tax info — secure and always at hand.</p>
+      </div>
+      <div class="feature reveal s2" style="display:flex;flex-direction:column;justify-content:center;background:var(--cream)">
+        <span class="tag" style="color:var(--ember-deep);font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase">Roles</span>
+        <h3 style="margin-top:6px">Access over ownership</h3>
+        <p>Unlimited users per asset — you control exactly what each person can see and do.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEE IT IN ACTION ============ -->
+<section class="sec-pad" id="see">
+  <div class="container">
+    <div class="reveal center" style="max-width:38rem;margin:0 auto">
+      <span class="label" style="justify-content:center">See it in action</span>
+      <h2 style="margin-top:18px">The schedule and the money, sorted.</h2>
+      <p class="lead" style="margin-top:14px">One calendar everyone can see, and a running ledger that keeps every cost fair.</p>
+    </div>
+    <div class="showcase-grid">
+      <!-- calendar mockup -->
+      <div class="mock reveal s1">
+        <div class="mock-bar"><i></i><i></i><i></i><span class="mock-title">Shared calendar</span></div>
+        <div class="mock-body">
+          <div class="cal-head"><b>July</b><span class="muted" style="font-size:.85rem">The Lakehouse</span></div>
+          <div class="cal-grid">
+            <span class="dow">S</span><span class="dow">M</span><span class="dow">T</span><span class="dow">W</span><span class="dow">T</span><span class="dow">F</span><span class="dow">S</span>
+            <span class="day blank"></span><span class="day blank"></span>
+            <span class="day">1</span><span class="day">2</span><span class="day">3</span><span class="day b1">4</span><span class="day b1">5</span>
+            <span class="day b1">6</span><span class="day">7</span><span class="day">8</span><span class="day">9</span><span class="day">10</span>
+            <span class="day b2">11</span><span class="day b2">12</span><span class="day b2">13</span><span class="day">14</span><span class="day">15</span>
+            <span class="day">16</span><span class="day">17</span><span class="day b3">18</span><span class="day b3">19</span><span class="day">20</span>
+            <span class="day">21</span><span class="day">22</span><span class="day">23</span><span class="day">24</span><span class="day b2">25</span>
+            <span class="day b2">26</span><span class="day b2">27</span><span class="day">28</span><span class="day">29</span><span class="day">30</span><span class="day">31</span>
+          </div>
+          <div class="cal-legend">
+            <span><i style="background:rgba(39,74,56,.6)"></i> Mom &amp; Dad</span>
+            <span><i style="background:var(--ember)"></i> Sarah's family</span>
+            <span><i style="background:var(--lake)"></i> Rented to a friend</span>
+          </div>
+        </div>
+      </div>
+      <!-- ledger mockup -->
+      <div class="mock reveal s2">
+        <div class="mock-bar"><i></i><i></i><i></i><span class="mock-title">Cost ledger</span></div>
+        <div class="mock-body">
+          <p class="ledger-cap">Slip, fuel &amp; insurance — split for July</p>
+          <div class="split-bar">
+            <i style="background:#274A38;width:34%"></i><i style="background:var(--ember);width:34%"></i><i style="background:var(--lake);width:22%"></i><i style="background:var(--clay);width:10%"></i>
+          </div>
+          <div class="ledger-row"><span class="ledger-name"><span class="av" style="background:#274A38">MD</span>Mom &amp; Dad</span><span class="ledger-amt paid">$340 · paid</span></div>
+          <div class="ledger-row"><span class="ledger-name"><span class="av" style="background:var(--ember-deep)">SF</span>Sarah's family</span><span class="ledger-amt paid">$340 · paid</span></div>
+          <div class="ledger-row"><span class="ledger-name"><span class="av" style="background:var(--lake)">TK</span>Tom &amp; Kate</span><span class="ledger-amt owed">$220 · due</span></div>
+          <div class="ledger-row"><span class="ledger-name"><span class="av" style="background:var(--clay)">JF</span>Guest (a friend)</span><span class="ledger-amt paid">$100 · paid</span></div>
+          <div class="ledger-total"><span>Total</span><span>$1,000</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="center muted reveal s3" style="margin-top:22px;font-size:.88rem">Illustrative of the ShareZen interface — swap in real app screenshots before launch.</p>
+  </div>
+</section>
+
+<!-- ============ USE CASES ============ -->
+<section class="sec-pad strip">
+  <div class="container">
+    <div class="reveal" style="max-width:40rem">
+      <span class="label">Built for</span>
+      <h2 style="margin-top:18px">The things you love.</h2>
+    </div>
+    <div class="uses">
+      <article class="use reveal s1">
+        <div class="art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></div>
+        <div class="body"><h3>Cabins &amp; homes</h3><p>Parents hold title; the kids' families share the costs and book the weekends.</p></div>
+      </article>
+      <article class="use reveal s2">
+        <div class="art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h18l-2 4H5z"/><path d="M5 16V8l8-3 6 5v6"/><path d="M13 5v11"/></svg></div>
+        <div class="body"><h3>Boats</h3><p>A syndicate shares slip, fuel, and upkeep — everyone books time and logs trips.</p></div>
+      </article>
+      <article class="use reveal s3">
+        <div class="art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 13l9-1 4-8 2 1-2 7 5 1v2l-5 1 1 6-2 1-3-6-7 1z"/></svg></div>
+        <div class="body"><h3>Light aircraft</h3><p>Quarter-share owners keep hours, scheduling, maintenance, and docs in sync.</p></div>
+      </article>
+      <article class="use reveal s4">
+        <div class="art"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="2" y="7" width="15" height="10" rx="1.5"/><path d="M17 10h3l2 3v4h-5z"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg></div>
+        <div class="body"><h3>RVs</h3><p>Rotate the rig among family and friends with checklists for what's packed.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="sec-pad" style="background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)" id="stories">
+  <div class="container">
+    <div class="reveal center" style="max-width:36rem;margin:0 auto">
+      <span class="label" style="justify-content:center">In their words</span>
+      <h2 style="margin-top:18px">Built for groups who share.</h2>
+    </div>
+    <!-- SAMPLE testimonials — replace the quote text and attributions with REAL, permissioned customer quotes before launch -->
+    <div class="quotes">
+      <figure class="quote reveal s1">
+        <div class="stars">★★★★★</div>
+        <p>"We stopped arguing about whose weekend it was. Now it's just on the calendar and everyone can see it."</p>
+        <figcaption class="who">
+          <span class="av" style="background:#274A38"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg></span>
+          <span><b>A cabin co-owner</b><span>Sample quote</span></span>
+        </figcaption>
+      </figure>
+      <figure class="quote reveal s2">
+        <div class="stars">★★★★★</div>
+        <p>"The cost-splitting alone is worth it. No more chasing four people for the slip fee every spring."</p>
+        <figcaption class="who">
+          <span class="av" style="background:var(--ember-deep)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16h18l-2 4H5z"/><path d="M5 16V8l8-3 6 5v6"/></svg></span>
+          <span><b>A boat syndicate lead</b><span>Sample quote</span></span>
+        </figcaption>
+      </figure>
+      <figure class="quote reveal s3">
+        <div class="stars">★★★★★</div>
+        <p>"One place for the logbook, the insurance, and the maintenance. Our quarter-share basically runs itself now."</p>
+        <figcaption class="who">
+          <span class="av" style="background:var(--lake)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 13l9-1 4-8 2 1-2 7 5 1v2l-5 1 1 6-2 1-3-6-7 1z"/></svg></span>
+          <span><b>An aircraft co-owner</b><span>Sample quote</span></span>
+        </figcaption>
+      </figure>
+    </div>
+    <p class="center muted reveal s3" style="margin-top:28px;font-size:.88rem">Placeholder quotes shown — swap in real testimonials from your subscribers, with permission.</p>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="sec-pad" id="pricing">
+  <div class="container">
+    <div class="reveal center" style="max-width:36rem;margin:0 auto 50px">
+      <span class="label" style="justify-content:center">Pricing</span>
+      <h2 style="margin-top:18px">One simple price.</h2>
+      <p class="lead" style="margin-top:14px">Start free. Stay because it works.</p>
+    </div>
+    <div class="price-wrap reveal s1">
+      <div class="price-card">
+        <span class="ribbon">30 days free</span>
+        <div class="price-amt"><span class="cur">$</span>19<span class="per">/ month</span></div>
+        <p class="price-sub">Cancel anytime · billed in CAD</p>
+        <ul class="price-list">
+          <li><svg class="ck" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg>Every feature — calendar, costs, maintenance, docs</li>
+          <li><svg class="ck" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg>Unlimited users with custom access levels</li>
+          <li><svg class="ck" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg>One subscription covers your whole group</li>
+          <li><svg class="ck" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 6"/></svg>Cancel in one click — no lock-in</li>
+        </ul>
+        <a class="btn btn-primary btn-lg" href="start.html">Start your 30-day free trial <span class="arrow">→</span></a>
+        <p class="price-fine">Billed to the asset owner. No charge until your trial ends.</p>
+      </div>
+    </div>
+    <p class="annual center reveal s2">Prefer to pay yearly? <b>$204/year</b> — about $17/month.</p>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="sec-pad strip">
+  <div class="container">
+    <div class="reveal center" style="max-width:36rem;margin:0 auto">
+      <span class="label" style="justify-content:center">Questions</span>
+      <h2 style="margin-top:18px">Good to know.</h2>
+    </div>
+    <div class="faq">
+      <details class="qa reveal s1"><summary>Is this like Airbnb?<span class="plus"></span></summary>
+        <div class="ans">No. ShareZen is for sharing among people you trust — co-owners, family, friends — not for listing your asset to strangers. That's the whole point.</div></details>
+      <details class="qa reveal s1"><summary>Can I rent it to someone?<span class="plus"></span></summary>
+        <div class="ans">Yes — to a friend, within your circle, as a way to keep the asset used and cared for. ShareZen just isn't a public rental marketplace.</div></details>
+      <details class="qa reveal s2"><summary>Who pays for the subscription?<span class="plus"></span></summary>
+        <div class="ans">The asset owner. In most cases one subscription covers the whole partnership, club, or group.</div></details>
+      <details class="qa reveal s2"><summary>What does it cost, and is there a trial?<span class="plus"></span></summary>
+        <div class="ans">$19/month or $204/year, with a full 30-day free trial for new customers. Cancel anytime.</div></details>
+      <details class="qa reveal s3"><summary>Which assets does it work for?<span class="plus"></span></summary>
+        <div class="ans">Vacation homes and cabins, boats, light aircraft, and RVs — anything valuable that a trusted group shares.</div></details>
+      <details class="qa reveal s3"><summary>Why is ShareZen a subscription now?<span class="plus"></span></summary>
+        <div class="ans">It ran free for years. A simple subscription keeps the platform stable and funds ongoing development — no ads, no selling your data.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="sec-pad final">
+  <div class="container">
+    <div class="final-card reveal">
+      <span class="label" style="justify-content:center;color:var(--ember)">Get organized</span>
+      <h2 style="margin-top:18px">Ready to share the smart way?</h2>
+      <p class="lead">Set up your asset, invite your circle, and let ShareZen handle the schedule, the costs, and the upkeep.</p>
+      <a class="btn btn-primary btn-lg" href="start.html">Start your 30-day free trial <span class="arrow">→</span></a>
+      <p class="cta-note" style="color:rgba(251,246,234,.75)"><b style="color:var(--cream)">$19/month · cancel anytime.</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="index.html" class="brand">
+          <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="#1C3528"/><path d="M16 7l8 7v11h-5v-6h-6v6H8V14z" fill="none" stroke="#DD8A3C" stroke-width="2" stroke-linejoin="round"/></svg>
+          ShareZen
+        </a>
+        <p>Socially, economically, and environmentally responsible sharing for the recreational assets you love. A division of Sharezen Consulting Ltd.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <a href="#how">How it works</a>
+        <a href="#why">Why share</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="start.html">Start free trial</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="https://app.sharezen.com/user_session/new">Log in</a>
+        <a href="tel:+16049049400">(604) 904-9400</a>
+        <a href="mailto:rob@sharezen.com">rob@sharezen.com</a>
+        <a href="https://www.sharezen.com/">ShareZen Group</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> Sharezen Consulting Ltd. · Sharing, not renting.</span>
+      <span><a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // current year
+  document.getElementById('year').textContent = new Date().getFullYear();
+  // scroll reveal
+  (function(){
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var els = document.querySelectorAll('.reveal');
+    if(reduce || !('IntersectionObserver' in window)){
+      els.forEach(function(e){ e.classList.add('in'); }); return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+    }, { threshold:.14, rootMargin:'0px 0px -8% 0px' });
+    els.forEach(function(e){ io.observe(e); });
+  })();
+</script>
+</body>
+</html>
