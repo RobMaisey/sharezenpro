@@ -86,3 +86,23 @@ approved one at a time before any edit.**
 
 _Guardrails: no DNS changes; app.sharezen.com untouched; other repos untouched; nothing
 deleted; no push without approval._
+
+---
+
+## Changes applied — 2026-06-01
+Four commits pushed to origin/main (live on sharezenpro.com):
+- `4507085` — index.html footer "ShareZen Group" link changed to https://sharezen.com (was old
+  www); product name standardised "ShareZen Organizer Pro" -> "ShareZen" in privacy.html and
+  terms.html. (Also added this DECISIONS.md.)
+- `5e0372a` — privacy.html §6: deletion sentence reworded to in-app deletion; removed the broken
+  https://www.sharezen.com/deleting-your-account.html link.
+- `100cf91` — terms.html §9: same fix (in-app deletion; broken link removed).
+- `b219c07` — index.html: removed the placeholder testimonials section (sample quotes) and the
+  "Illustrative ... swap in real app screenshots before launch" mockup note (mock images kept).
+
+Deliberately NOT changed: terms §4 cancellation/refund wording; payment wording kept generic
+(payment processor not named).
+
+Still open from the audit gap list: start.html footer/contact (gap 3); real testimonials if
+wanted later (gap 4); real mockup screenshots (gap 5); professional/legal review of the
+privacy & terms template text (gap 6).
